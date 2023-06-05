@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+        .center-border {
+            width: 1594px;
+            height: 988px;
+            border: 2px solid white;
+            border-radius: 50px;
+            background-color: white;
+            margin: 0 auto;
+            position: relative; /* Added */
+        }
+
+        .button-back {
+            position: absolute;
+            top: 30px;
+            left: 200px;
+            width: 100px;
+            height: 40px;
+            border: none;
+            border-radius: 50px;
+            background-color: pink;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button-buy {
+            position: absolute;
+            bottom: 30px;
+            right: 200px;
+            width: 150px;
+            height: 50px;
+            border: none;
+            border-radius: 50px;
+            background-color: pink;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .center-border img {
+            position: absolute;
+            top: 50%;
+            left: 50px; /* Adjust as needed */
+            transform: translateY(-50%);
+            max-width: 75%;
+            max-height: 75%;
+        }
+
+        .pinku-img {
+            position: absolute;
+            top: 50%;
+            right: 200px; /* Adjust as needed */
+            transform: translateY(-50%);
+            max-width: 850px;
+            max-height: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-border">
+        <img src="images/bunga1.png">
+    </div>
+    <button> <a href="index.html" class="button-back">Back</a></button>
+    <button> <a href="buynow.html" class="button-buy">Buy Now</a></button>
+
+    <img class="pinku-img" src="images/pinku.png">
+</body>
+</html>
